@@ -16,8 +16,8 @@ Before you begin, you need a [Datadog account](https://app.datadoghq.com/signup)
 | TLS | _Required_ - End-to-end security communications security protocol. Datadog recommends setting this to `on`. | `off` |
 | compress | _Recommended_ - compresses the payload in GZIP format, Datadog supports and recommends setting this to `gzip`. |  |
 | apikey | _Required_ - Your [Datadog API key](https://app.datadoghq.com/account/settings#api). |  |
-| dd\_service | _Recommended_ - The human readable name for your service generating the logs - the name of your application or database. |  |
-| dd\_source | _Recommended_ - A human readable name for the underlying technology of your service. For example, `postgres` or `nginx`. |  |
+| dd\_service | _Recommended_ - The human-readable name for your service generating the logs - the name of your application or database. |  |
+| dd\_source | _Recommended_ - A human-readable name for the underlying technology of your service. For example, `postgres` or `nginx`. |  |
 | dd\_tags | _Optional_ - The [tags](https://docs.datadoghq.com/tagging/) you want to assign to your logs in Datadog. |  |
 
 ### Configuration File
